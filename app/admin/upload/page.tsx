@@ -1,3 +1,4 @@
+import Logo from "@/components/Logo";
 'use client';
 
 import React, { useState } from 'react';

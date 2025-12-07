@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getReports } from "@/lib/reports";
 import UserAvatar from "@/components/UserAvatar";
+import Logo from "@/components/Logo";
 
 // Force dynamic rendering - reports list should always be fresh
 export const dynamic = 'force-dynamic';
@@ -14,7 +15,7 @@ export default async function ReportsPage() {
       <nav className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-3xl">📊</span>
+            <Logo className="w-8 h-8" />
             <span className="text-xl font-bold text-white">FinReports</span>
           </Link>
           <div className="hidden md:flex space-x-8 text-white items-center">

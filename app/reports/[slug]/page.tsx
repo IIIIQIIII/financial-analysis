@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import UserAvatar from "@/components/UserAvatar";
 import BackToTop from "@/components/BackToTop";
+import Logo from "@/components/Logo";
 
 // Force dynamic rendering - reports can be uploaded at any time
 export const dynamic = 'force-dynamic';
@@ -33,7 +34,7 @@ export default async function ReportPage({ params }: ReportPageProps) {
       <nav className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-3xl">📊</span>
+            <Logo className="w-8 h-8" />
             <span className="text-xl font-bold text-white">FinReports</span>
           </Link>
           <div className="hidden md:flex space-x-8 text-white items-center">
