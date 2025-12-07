@@ -1,4 +1,3 @@
-import Logo from "@/components/Logo";
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -6,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import AuthGuard from '@/components/AuthGuard';
 import UserAvatar from '@/components/UserAvatar';
+import Logo from '@/components/Logo';
 
 interface Report {
   filename: string;
