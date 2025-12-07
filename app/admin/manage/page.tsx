@@ -92,7 +92,7 @@ function ManagePageContent() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl">📊</span>
+              <Logo className="w-6 h-6" />
               <span className="text-lg font-bold text-gray-900">
                 FinReports Admin
               </span>

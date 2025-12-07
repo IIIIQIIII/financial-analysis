@@ -64,7 +64,7 @@ export default function LoginPage() {
         {/* Logo/Header */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center space-x-2 mb-4">
-            <span className="text-5xl">📊</span>
+            <Logo className="w-16 h-16" />
           </Link>
           <h1 className="text-4xl font-bold text-white mb-2">Admin Login</h1>
           <p className="text-blue-100">
