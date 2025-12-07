@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FinReports - Financial Analysis Platform
+
+A modern financial analysis platform built with Next.js 16, featuring dynamic report management and AI-powered insights.
+
+## Features
+
+- 📊 **Dynamic Report Management** - Upload and manage financial analysis reports in real-time
+- 🔐 **Secure Authentication** - Cookie-based session management for admin access
+- 📝 **MDX Support** - Rich markdown reports with React components
+- 🎨 **Modern UI** - Beautiful gradient design with Tailwind CSS
+- 🚀 **Server-Side Rendering** - Dynamic content updates without rebuilding
+- 📱 **Responsive Design** - Works seamlessly across all devices
+
+## Tech Stack
+
+- **Framework**: Next.js 16.0.7 (App Router)
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Content**: MDX for rich report formatting
+- **Authentication**: Cookie-based sessions
+- **Deployment**: Vercel-ready
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm/yarn/pnpm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone git@github.com:IIIIQIIII/financial-analysis.git
+cd financial-analysis
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.local.example .env.local
+# Edit .env.local and add your credentials
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Run development server
+npm run dev
 
-## Learn More
+# Build for production
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# Start production server
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is optimized for deployment on Vercel.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**© 2026 FinReports** - Data sourced from SEC EDGAR filings
